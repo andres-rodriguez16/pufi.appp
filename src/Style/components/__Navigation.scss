@@ -1,0 +1,21 @@
+.navigation {
+  display: flex;
+  margin-top: 25px;
+  p {
+    margin: 0 6px 0 0;
+  }
+  .navigation__one {
+    margin-right: 10px;
+    border-right: 1px solid #ffffff;
+  }
+  .img {
+    width: 30px;
+    height: 30px;
+    padding-bottom: 5px;
+    display: block;
+    margin: 0px auto;
+  }
+}
+
+
+
