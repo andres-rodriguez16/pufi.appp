@@ -1,9 +1,8 @@
 import React from 'react'
-import s from "./MyProfile.module.css"
 
 function MyProfile() {
   return (
-    <div className={s.container}>
+    <div className="container">
       <p>MI CUENTA   |</p> 
       <p>MI COMPRAS</p> 
     </div>
