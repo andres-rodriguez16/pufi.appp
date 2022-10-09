@@ -1,11 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import s from './App.module.css';
+import Navbar from './components/Navbar/Navbar.jsx';
 
 function App() {
   return (
-    <div className="App">
-      <h1>hola mundo</h1>
-      
+    <div className={s.app}>
+      <Navbar/>
     </div>
   );
 }
