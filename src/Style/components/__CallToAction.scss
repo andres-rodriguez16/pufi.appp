@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+$font-family: 'Oxygen';
+$color: rgb(77, 77, 77);
+$font-weigth : 400;
+
+.slogan {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-bottom: 40px;
+  h1 {
+    font-size: 40px;
+    color: $color;
+    font-weight: 400;
+  }
+  .p_first {
+    color: rgb(165, 167, 169);
+    font-weight: $font-weigth;
+  }
+  p {
+    font-size: 15px;
+    margin: 8px 0;
+    color: $color;
+    font-weight: $font-weigth;
+  }
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+
+  input {
+    padding: 10px 150px;
+    &::placeholder {
+      color: $color;
+    }
+  }
+  .send {
+    background-color: transparent;
+    border: 0;
+    margin: 0 -40px;
+    text-align: center;
+  }
+  .flecha {
+    font-size: 25px;
+    color: $color;
+    margin: -8px 0;
+  }
+}

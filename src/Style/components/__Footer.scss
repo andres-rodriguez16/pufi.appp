@@ -1,40 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
 $font-family: 'Oxygen';
+@mixin footer {
+  padding-right: 120px;
+  border-right: 1px solid rgb(229, 229, 229);
+}
 
 .footer__container {
   display: flex;
   justify-content: space-around;
   background-color: white;
+  margin: 40px 0;
   padding: 20px 0;
   width: 100%;
+  box-shadow: 0px -4px 5px 0px rgba(212,212,212,1);
   .logo {
     height: 70px;
     width: 140px;
   }
   p {
     font-family: $font-family;
+    padding: 10px 0;
     font-size: 12px;
-    font-weight: 700;
+    font-weight: bold;
     color: rgb(72, 72, 72);
   }
   .section {
-    padding-right: 120px;
-    border-right: 1px solid rgb(165, 167, 169);
+    @include footer;
   }
-  .contacto{
-    padding-right: 120px;
-    border-right: 1px solid rgb(165, 167, 169);
+  .contacto {
+    @include footer;
   }
-  .security{
-    padding-right: 120px;
-    border-right: 1px solid rgb(165, 167, 169);
+  .security {
+    @include footer;
+    img {
+      width: 30px;
+      height: 30px;
+    }
   }
   .redes {
     img {
-      width: 30px;
-      height: 25px;
+      height: 28px;
       padding: 0 3px;
-      margin-top: 5px ;
+      margin-top: 5px;
+      margin-right: 2px;
     }
   }
 }
