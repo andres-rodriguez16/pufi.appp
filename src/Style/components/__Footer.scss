@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+$font-family: 'Oxygen';
+
+.footer__container {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  padding: 20px 0;
+  width: 100%;
+  .logo {
+    height: 70px;
+    width: 140px;
+  }
+  p {
+    font-family: $font-family;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(72, 72, 72);
+  }
+  .section {
+    padding-right: 120px;
+    border-right: 1px solid rgb(165, 167, 169);
+  }
+  .contacto{
+    padding-right: 120px;
+    border-right: 1px solid rgb(165, 167, 169);
+  }
+  .security{
+    padding-right: 120px;
+    border-right: 1px solid rgb(165, 167, 169);
+  }
+  .redes {
+    img {
+      width: 30px;
+      height: 25px;
+      padding: 0 3px;
+      margin-top: 5px ;
+    }
+  }
+}
