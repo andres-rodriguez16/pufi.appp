@@ -16,7 +16,7 @@ function Card() {
         </div>
         <div className='description'>
           <img src={rain} alt='' />
-          <h3 className='descripciion__h3'>Pufi Rain</h3>
+          <h3 className='descripciion__h3'>Pufi RAIN</h3>
           <p>
             Descripción del producto. Este <br />
             es un texto simulado
@@ -27,7 +27,7 @@ function Card() {
       <div className='card__container'>
         <div className='description'>
           <img className='puff' src={Puff} alt='' />
-          <h3 className='descripciion__h3'>Pufi Nap</h3>
+          <h3 className='descripciion__h3'>Pufi NAP</h3>
           <p>
             Descripción del producto. Este <br />
             es un texto simulado
@@ -46,7 +46,7 @@ function Card() {
         </div>
         <div className='description'>
           <img className='cart' src={Cart} alt='' />
-          <h3 className='descripciion__h3'>Pufi Cart</h3>
+          <h3 className='descripciion__h3'>Pufi CART</h3>
           <p>
             Descripción del producto. Este <br />
             es un texto simulado
