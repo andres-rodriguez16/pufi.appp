@@ -1,9 +1,21 @@
+@mixin border {
+  margin-right: 10px;
+  margin-left: 10px;
+  border-right: 1px solid rgb(255, 255, 255);
+  padding-right: 20px;
+}
+
 .navigation {
   display: flex;
   margin-top: 25px;
   .navigation__one {
-    margin-right: 10px;
-    margin-left: 10px;
+    @include border;
+  }
+  .navigation__two {
+    @include border;
+  }
+  .navigation__three {
+    @include border;
   }
   .img {
     width: 35px;
@@ -13,6 +25,3 @@
     margin: 0px auto;
   }
 }
-
-
-

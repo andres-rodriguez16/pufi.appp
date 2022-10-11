@@ -5,23 +5,25 @@ import rain from '../../../images/rain.png';
 import nap from '../../../images/nav.png';
 
 function Navigation() {
-  let navi = [
-    { name: 'PUFI PUFF', img: puff },
-    { name: 'PUFI RAIN', img: rain },
-    { name: 'PUFI CART', img: cart },
-    { name: 'PUFI NAP', img: nap },
-  ];
+  
   return (
     <div className='navigation'>
-      {navi?.map((el, i) => {
-        return (
-          <div className='navigation__one'>
-            <img className='img' src={el.img} alt={el.name} />
-            <p>{el.name}</p>
-            {i !== 3 && <p className='break'></p>}
-          </div>
-        );
-      })}
+      <div className='navigation__one'>
+        <img className='img' src={puff} alt='PUFI PUFF' />
+        <p>PUFI PUFF</p>
+      </div>
+      <div className='navigation__two'>
+        <img className='img' src={rain} alt='PUFI RAIN' />
+        <p>PUFI RAIN</p>
+      </div>
+      <div className='navigation__three'>
+        <img className='img' src={cart} alt='PUFI CART' />
+        <p>PUFI CART</p>
+      </div>
+      <div className='navigation__four'>
+        <img className='img' src={nap} alt='PUFI NAP' />
+        <p>PUFI NAP</p>
+      </div>
     </div>
   );
 }
