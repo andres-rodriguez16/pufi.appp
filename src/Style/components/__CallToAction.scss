@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
-$font-family: 'OxygQuicksanden';
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+$font-family: 'Quicksand';
 $color: rgb(77, 77, 77);
-$font-weigth : 400;
+$font-weigth: 400;
 
 .slogan {
   font-family: $font-family;
@@ -11,6 +11,7 @@ $font-weigth : 400;
     font-size: 40px;
     color: $color;
     font-weight: 400;
+    font-family: $font-family;
   }
   .p_first {
     color: rgb(165, 167, 169);
