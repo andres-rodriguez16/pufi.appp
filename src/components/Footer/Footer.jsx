@@ -23,13 +23,16 @@ function Footer() {
       </div>
       <div className='security'>
         <p>COMPRA 100% SEGURA</p>
-        <img src={escudo} alt='escudo' />
+        <div className='logo'>
+          <img src={escudo} alt='escudo' />
+          <p>Compra con la garantía de pufi</p>
+        </div>
       </div>
       <div className='redes'>
         <p>SIGUENOS EN</p>
         <img src={facebook} alt='logo-facebook' />
-        <img src={instagram} alt='logo-instagram' />
         <img src={twitter} alt='logo-twitter' />
+        <img src={instagram} alt='logo-instagram' />
       </div>
     </footer>
   );
