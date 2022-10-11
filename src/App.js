@@ -12,8 +12,8 @@ function App() {
         <Navbar />
         <Carousel />
       </div>
-      <Card/>
-      <Mosaic/>
+      <Card />
+      <Mosaic />
       <Form />
       <Footer />
     </div>
