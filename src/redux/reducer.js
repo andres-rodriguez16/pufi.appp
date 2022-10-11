@@ -1,8 +1,7 @@
 
 const initialState = {
-  moviesFavourites: [],
-  moviesLoaded: [],
-  movieDetail: {},
+  Products: [],
+  ProductsDetail: {},
 };
 
 function rootReducer(state = initialState, action) {

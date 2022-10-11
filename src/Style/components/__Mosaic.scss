@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+$font-family: 'Quicksand';
+$color: rgb(77, 77, 77);
+$font-weigth: 400;
+
+.row {
+  .instagram{
+    text-align: center;
+    margin-top: 40px;
+  }
+  .p_first {
+    color: rgb(165, 167, 169);
+    font-weight: $font-weigth;
+  }
+  h1 {
+    font-size: 40px;
+    color: $color;
+    font-weight: 400;
+    font-family: $font-family;
+  }
+}
+.column {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  img {
+    border-radius: 3px;
+    width: 15%;
+  }
+}
+.column1 {
+  display: flex;
+  justify-content: center;
+  .image5{
+    width: 15%;
+  }
+  img {
+    border-radius: 3px;
+    width: 15%;
+  }
+}
