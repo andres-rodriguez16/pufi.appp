@@ -1,4 +1,4 @@
-# imagen principal
+# Imagen principal
 
 [![](https://raw.githubusercontent.com/andresyrg16/prueba-tecnica-pufi/main/src/Screenshot_1.png)](https://raw.githubusercontent.com/andresyrg16/prueba-tecnica-pufi/main/src/Screenshot_1.png)
 
