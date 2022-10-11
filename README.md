@@ -11,7 +11,7 @@
 # Sección de instagram
 [![](https://raw.githubusercontent.com/andresyrg16/prueba-tecnica-pufi/main/src/presentacion/instagram.png)](http://https://raw.githubusercontent.com/andresyrg16/prueba-tecnica-pufi/main/src/presentacion/instagram.png)
 
-# Call to action de la sección de Newsletter
+# Call to action 
 [![](https://raw.githubusercontent.com/andresyrg16/prueba-tecnica-pufi/main/src/presentacion/form.png)](https://raw.githubusercontent.com/andresyrg16/prueba-tecnica-pufi/main/src/presentacion/form.png)
 
 # Footer 
